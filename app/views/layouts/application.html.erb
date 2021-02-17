@@ -11,6 +11,10 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="blue-bg">
+      <%= render "layouts/navigation" %>
+      <%= yield %>
+      <%= render "layouts/footer"%>
+    </div>
   </body>
 </html>
